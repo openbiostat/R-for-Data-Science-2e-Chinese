@@ -1,0 +1,87 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "R for Data Science (2e) 中文版"
+  reader-mode: true
+
+  page-footer:
+    left: |
+      R for Data Science (2e) was written by Hadley Wickham, Mine
+      Çetinkaya-Rundel, and Garrett Grolemund. 本书中文版内容的翻译
+      由[陆震](https://leslie-lu.github.io/)完成并维护。
+    right: |
+      本书使用 <a href="https://quarto.org/">Quarto</a> 构建。
+  cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: https://github.com/openbiostat/R-for-Data-Science-2e-Chinese/
+  repo-url: https://github.com/openbiostat/R-for-Data-Science-2e-Chinese/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+
+    # - preface-2e.qmd
+    # - chapters/intro.qmd
+
+    # # TODO: UPDATE parts and chapters
+    # - part: chapters/whole-game.qmd
+    #   chapters:
+    #     - chapters/data-visualize.qmd
+    #     - chapters/workflow-basics.qmd
+    #     - chapters/data-transform.qmd
+    #     - chapters/workflow-style.qmd
+    #     - chapters/data-tidy.qmd
+    #     - chapters/workflow-scripts.qmd
+    #     - chapters/data-import.qmd
+    #     - chapters/workflow-help.qmd
+
+    # - part: chapters/visualize.qmd
+    #   chapters:
+    #     - chapters/layers.qmd
+    #     - chapters/EDA.qmd
+    #     - chapters/communication.qmd
+
+    # - part: chapters/transform.qmd
+    #   chapters:
+    #     - chapters/logicals.qmd
+    #     - chapters/numbers.qmd
+    #     - chapters/strings.qmd
+    #     - chapters/regexps.qmd
+    #     - chapters/factors.qmd
+    #     - chapters/datetimes.qmd
+    #     - chapters/missing-values.qmd
+    #     - chapters/joins.qmd
+
+    # - part: chapters/import.qmd
+    #   chapters:
+    #     - chapters/spreadsheets.qmd
+    #     - chapters/databases.qmd
+    #     - chapters/arrow.qmd
+    #     - chapters/rectangling.qmd
+    #     - chapters/webscraping.qmd
+
+    # - part: chapters/program.qmd
+    #   chapters:
+    #     - chapters/functions.qmd
+    #     - chapters/iteration.qmd
+    #     - chapters/base-R.qmd
+
+    # - part: chapters/communicate.qmd
+    #   chapters:
+    #     - chapters/quarto.qmd
+    #     - chapters/quarto-formats.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - r4ds.scss
+    code-link: true
+
+    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund 著，陆震翻译"
+    include-in-header: "plausible.html"
+    callout-appearance: simple
+
+editor: source

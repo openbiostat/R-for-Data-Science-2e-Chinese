@@ -1,0 +1,38 @@
+Package: R-for-Data-Science-2e-Chinese
+Title: R for Data Science (2e) Chinese Edition.
+Version: 0.1.0
+Authors@R: c(
+    person("Zhen", "Lu", , "luzh29@mail2.sysu.edu.cn", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-3481-6310"))
+  )
+URL: https://github.com/openbiostat/R-for-Data-Science-2e-Chinese
+Depends: 
+    R (>= 3.1.0)
+Imports:
+    arrow,
+    babynames,
+    curl (>= 5.0.0),
+    duckdb,
+    gapminder,
+    ggrepel,
+    ggridges,
+    ggthemes,
+    hexbin,
+    janitor,
+    Lahman,
+    leaflet,
+    maps,
+    nycflights13,
+    openxlsx,
+    palmerpenguins,
+    repurrrsive (>= 1.1.0),
+    tidymodels,
+    tidyverse (>= 2.0.0),
+    writexl
+Suggests:
+    downlit,
+    jpeg,
+    knitr,
+    sessioninfo
+Remotes: tidyverse/dplyr
+Encoding: UTF-8
+License: CC NC ND 3.0

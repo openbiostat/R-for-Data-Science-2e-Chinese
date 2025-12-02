@@ -1,0 +1,24 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# R for Data Science (2e) 中文版
+
+*R for Data Science (2e) 中文版*是由[陆震](https://leslie-lu.github.io/)翻译和维护的 [*R for Data Science (2e)*](https://r4ds.hadley.nz/) 的中文版。
+
+## 问题与反馈
+
+本书源文件均用 [Quarto](https://quarto.org/) 撰写。
+如果你发现了任何错误，请点击菜单栏上的**编辑**按钮，并在 [Github](https://github.com/openbiostat/R-for-Data-Science-2e-Chinese) 上向我提交合并请求。
+如果读者有任何的疑问，请通过创建 [GitHub issue](https://github.com/openbiostat/R-for-Data-Science-2e-Chinese/issues) 与我联系。

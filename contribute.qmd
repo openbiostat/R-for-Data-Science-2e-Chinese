@@ -1,0 +1,19 @@
+# Contributing {#sec-contributing}
+
+本书在开源环境中开发，如果没有你的贡献，本书不会如此出色。
+有多种方式可以帮助改进本书：
+
+-   如果你有不理解的地方，请[告诉我](mailto:luzh29@mail2.sysu.edu.cn)。
+    你对那些让人困惑或难以理解内容的反馈非常重要。
+
+-   如果你发现错别字，欢迎直接编辑相应页面并提交 pull request。
+    如果你以前从未这样做过，流程非常简单：
+
+    -   在侧边栏点击 `Edit this page`（编辑此页面）。
+
+    -   在 GitHub 的页面内编辑器中进行修改并保存。
+
+    -   提交 pull request，并简要描述你的修改。
+        写上 `Fixing typos` 就足够了。
+
+    -   如果你进行重大修改，请包含短语 `I assign the copyright of this contribution to Zhen Lu` —— 我需要这句话以便发布印刷书籍。

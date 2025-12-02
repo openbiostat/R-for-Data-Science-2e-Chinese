@@ -1,0 +1,16 @@
+# 欢迎 {.unnumbered}
+
+欢迎来到 [*"R for Data Science (2e)"*](https://r4ds.hadley.nz/) 中文版。本书中文版内容的翻译由[陆震](https://leslie-lu.github.io/)完成并维护。目前本书中文版内容还没有纸质出版，如果读者是出版人员，并有意愿负责出版本书，请通过 [luzh29@mail2.sysu.edu.cn](mailto:luzh29@mail2.sysu.edu.cn) 联系我们。
+
+本书将教你如何使用 R 进行数据科学：你将学习如何把数据导入 R、将其整理成最有用的结构、进行转换并进行可视化。
+
+在本书中，你会找到一套面向数据科学的实践技能。
+正如化学家需要学习如何清洗试管和管理实验室，你将学习如何清洗数据并绘制图表——以及许多其他技能。
+正是这些技能使得奠定了数据科学的基础，本书会展示使用 R 完成每一项任务的最佳实践。
+你将学习如何使用图形语法（grammar of graphics）、可叙述编程（literate programming）和可重复研究（reproducible research）来节省时间。
+你还将学习如何管理认知资源，以便在清理、可视化和探索数据时更容易发现洞见。
+
+本网站永久免费，采用 [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/) 许可。
+
+请注意，本书采用 [贡献者行为准则](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html)。
+一旦你为本书贡献内容，即表示你同意遵守该准则的条款。
