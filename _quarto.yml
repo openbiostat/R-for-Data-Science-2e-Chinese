@@ -9,8 +9,9 @@ book:
   page-footer:
     left: |
       R for Data Science (2e) was written by Hadley Wickham, Mine
-      Çetinkaya-Rundel, and Garrett Grolemund. 本书中文版内容的翻译
-      由[陆震](https://leslie-lu.github.io/)完成并维护。
+      Çetinkaya-Rundel, and Garrett Grolemund. 本书中文版内容由[陆震](https://leslie-lu.github.io/)
+      组织「OpenBioStat R for Data Science (2e) 中文版」翻译小组
+      （成员：[陆震](https://leslie-lu.github.io/)、[夏鑫辛](https://github.com/kirihsia)）翻译并维护。
     right: |
       本书使用 <a href="https://quarto.org/">Quarto</a> 构建。
   cover-image: cover.jpg
@@ -80,7 +81,7 @@ format:
       - r4ds.scss
     code-link: true
 
-    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund 著，陆震翻译"
+    author-meta: "Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund 著，陆震、夏鑫辛翻译"
     include-in-header: "plausible.html"
     callout-appearance: simple
 
