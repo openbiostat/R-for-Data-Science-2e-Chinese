@@ -6,8 +6,8 @@ on:
   # to be able to trigger a manual build
   workflow_dispatch:
   schedule:
-    # run every day at 11 PM
-    - cron: "0 23 * * *"
+    # run every Friday at 8 am UTC+8
+    - cron: "0 0 * * 5"
 
 name: build_book.yaml
 
