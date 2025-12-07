@@ -64,7 +64,7 @@ $ grep -nri ggplot2 chapters | cat --number
 
 本项目开源，采用 [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/) 许可。
 
-请注意，本书采用 [贡献者行为准则](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html)。
+请注意，本书采用[贡献者行为准则](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html)。
 一旦你为本书贡献内容，即表示你同意遵守该准则的条款。
 
 ## 致谢
