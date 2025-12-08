@@ -252,7 +252,10 @@ contribs_all <- tibble(
 )
 
 contribs_old <- read_csv("contributors_for_chinese_version.csv", col_types = list())
-contribs_new <- contribs_all |> anti_join(contribs_old, by = "login")
+# Filter out Copilot (which is not a real GitHub user) before processing
+contribs_new <- contribs_all |> 
+  filter(login != "Copilot") |>
+  anti_join(contribs_old, by = "login")
 
 # Get info for new contributors
 needed_json <- map(
