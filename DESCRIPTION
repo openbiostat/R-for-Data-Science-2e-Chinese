@@ -29,7 +29,9 @@ Imports:
     tidyverse (>= 2.0.0),
     writexl
 Suggests:
+    cli,
     downlit,
+    gh,
     jpeg,
     knitr,
     sessioninfo

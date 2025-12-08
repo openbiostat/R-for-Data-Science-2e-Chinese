@@ -8,8 +8,9 @@ book:
 
   page-footer:
     left: |
-      本书中文版内容由[陆震](https://leslie-lu.github.io/)组织「OpenBioStat R for Data Science (2e) 中文版」翻译小组（成员：[陆震](https://leslie-lu.github.io/)、[夏鑫辛](https://github.com/kirihsia)）翻译并维护。
-    right: |
+      本书中文版内容由[陆震](https://leslie-lu.github.io/)组织「OpenBioStat R for Data Science (2e) 中文版」翻译小组
+      （成员：[陆震](https://leslie-lu.github.io/)、[夏鑫辛](https://github.com/kirihsia)）翻译并维护。
+    right: >
       本书使用 <a href="https://quarto.org/">Quarto</a> 构建。
   cover-image: cover.jpg
   favicon: cover.jpg
@@ -21,55 +22,55 @@ book:
     - index.qmd
     - preface-2e.qmd
     
-    - chapters/intro.qmd
+    - intro.qmd
 
     # # TODO: UPDATE parts and chapters
-    # - part: chapters/whole-game.qmd
+    # - part: whole-game.qmd
     #   chapters:
-    #     - chapters/data-visualize.qmd
-    #     - chapters/workflow-basics.qmd
-    #     - chapters/data-transform.qmd
-    #     - chapters/workflow-style.qmd
-    #     - chapters/data-tidy.qmd
-    #     - chapters/workflow-scripts.qmd
-    #     - chapters/data-import.qmd
-    #     - chapters/workflow-help.qmd
+    #     - data-visualize.qmd
+    #     - workflow-basics.qmd
+    #     - data-transform.qmd
+    #     - workflow-style.qmd
+    #     - data-tidy.qmd
+    #     - workflow-scripts.qmd
+    #     - data-import.qmd
+    #     - workflow-help.qmd
 
-    # - part: chapters/visualize.qmd
+    # - part: visualize.qmd
     #   chapters:
-    #     - chapters/layers.qmd
-    #     - chapters/EDA.qmd
-    #     - chapters/communication.qmd
+    #     - layers.qmd
+    #     - EDA.qmd
+    #     - communication.qmd
 
-    # - part: chapters/transform.qmd
+    # - part: transform.qmd
     #   chapters:
-    #     - chapters/logicals.qmd
-    #     - chapters/numbers.qmd
-    #     - chapters/strings.qmd
-    #     - chapters/regexps.qmd
-    #     - chapters/factors.qmd
-    #     - chapters/datetimes.qmd
-    #     - chapters/missing-values.qmd
-    #     - chapters/joins.qmd
+    #     - logicals.qmd
+    #     - numbers.qmd
+    #     - strings.qmd
+    #     - regexps.qmd
+    #     - factors.qmd
+    #     - datetimes.qmd
+    #     - missing-values.qmd
+    #     - joins.qmd
 
-    # - part: chapters/import.qmd
+    # - part: import.qmd
     #   chapters:
-    #     - chapters/spreadsheets.qmd
-    #     - chapters/databases.qmd
-    #     - chapters/arrow.qmd
-    #     - chapters/rectangling.qmd
-    #     - chapters/webscraping.qmd
+    #     - spreadsheets.qmd
+    #     - databases.qmd
+    #     - arrow.qmd
+    #     - rectangling.qmd
+    #     - webscraping.qmd
 
-    # - part: chapters/program.qmd
+    # - part: program.qmd
     #   chapters:
-    #     - chapters/functions.qmd
-    #     - chapters/iteration.qmd
-    #     - chapters/base-R.qmd
+    #     - functions.qmd
+    #     - iteration.qmd
+    #     - base-R.qmd
 
-    # - part: chapters/communicate.qmd
+    # - part: communicate.qmd
     #   chapters:
-    #     - chapters/quarto.qmd
-    #     - chapters/quarto-formats.qmd
+    #     - quarto.qmd
+    #     - quarto-formats.qmd
 
 format:
   html:
