@@ -7,9 +7,8 @@ book:
   reader-mode: true
 
   page-footer:
-    left: |
-      本书中文版内容由[陆震](https://leslie-lu.github.io/)组织「OpenBioStat R for Data Science (2e) 中文版」翻译小组
-      （成员：[陆震](https://leslie-lu.github.io/)、[夏鑫辛](https://github.com/kirihsia)）翻译并维护。
+    left: >
+      本书中文版内容由[陆震](https://leslie-lu.github.io/)组织「OpenBioStat R for Data Science (2e) 中文版」翻译小组（成员：[陆震](https://leslie-lu.github.io/)、[夏鑫辛](https://github.com/kirihsia)）翻译并维护。
     right: >
       本书使用 <a href="https://quarto.org/">Quarto</a> 构建。
   cover-image: cover.jpg
