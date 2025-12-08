@@ -20,7 +20,8 @@ book:
   chapters:
     - index.qmd
     - preface-2e.qmd
-    # - chapters/intro.qmd
+    
+    - chapters/intro.qmd
 
     # # TODO: UPDATE parts and chapters
     # - part: chapters/whole-game.qmd
