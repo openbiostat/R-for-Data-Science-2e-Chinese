@@ -15,13 +15,9 @@ source("_common.R")
 #| label: fig-ds-diagram
 #| echo: false
 #| fig-cap: >
-#|   在我们认为的数据科学步骤中，你从数据导入和规整开始。
-#|   接下来，你通过转换、可视化和建模的迭代循环来理解你的数据。
-#|   最后，你通过将结果传达给他人来结束这一过程。
+#|   在我们认为的数据科学步骤中，你从数据导入和规整开始。接下来，你通过转换、可视化和建模的迭代循环来理解你的数据。最后，你通过将结果传达给他人来结束这一过程。
 #| fig-alt: >
-#|   展示数据科学过程的图示：导入 -> 规整 -> 理解
-#|   （其中包含转换 -> 可视化 -> 建模的循环阶段） ->
-#|   沟通。围绕所有这些的是编程。
+#|   展示数据科学过程的图示：导入 -> 规整 -> 理解（其中包含转换 -> 可视化 -> 建模的循环阶段） -> 沟通。围绕所有这些的是编程。
 #| out.width: NULL
 knitr::include_graphics("diagrams/data-science/base.png", dpi = 270)
 ```
@@ -91,8 +87,7 @@ RStudio 是用于 R 编程的集成开发环境（integrated development environ
 #| echo: false
 #| out-width: ~
 #| fig-cap: >
-#|   RStudio IDE 有两个关键区域：在左侧的控制台面板输入 R 代码，
-#|   在右侧的输出面板查看绘图。
+#|   RStudio IDE 有两个关键区域：在左侧的控制台面板输入 R 代码，在右侧的输出面板查看绘图。
 #| fig-alt: >
 #|   高亮显示控制台和输出面板的 RStudio IDE。
 knitr::include_graphics("diagrams/rstudio/console.png", dpi = 270)
