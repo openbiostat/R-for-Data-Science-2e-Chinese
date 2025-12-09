@@ -23,10 +23,9 @@ book:
     
     - intro.qmd
 
-    # # TODO: UPDATE parts and chapters
-    # - part: whole-game.qmd
-    #   chapters:
-    #     - data-visualize.qmd
+    - part: whole-game.qmd
+      chapters:
+        - data-visualize.qmd
     #     - workflow-basics.qmd
     #     - data-transform.qmd
     #     - workflow-style.qmd
